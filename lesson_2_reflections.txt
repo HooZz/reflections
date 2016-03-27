@@ -11,13 +11,26 @@ You can split the changes by the logical operations and commit them.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+By commiting files one by one
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+To try new feature or develop special version of the program. Branches allow to
+test separatelly.
+
 How do the diagrams help you visualize the branch structure?
+
+Clearly see which commit is related to which branch. Also I see unreachble commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is the new commit which contains changes from both paths. Because it
+was a parallel process.	
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+If the merge is simple then git can do it, but in complicated cases the
+human interaction is required.
